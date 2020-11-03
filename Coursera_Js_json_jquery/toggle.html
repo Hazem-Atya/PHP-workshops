@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Toggle</title>
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<p id="para">Where is the spinner?
+    <img id="spinner" src="https://icon-library.com/images/spinner-icon-gif/spinner-icon-gif-10.jpg" height="25"
+         style="vertical-align: middle; display:none;">
+</p>
+<a href="#" onclick="$('#spinner').toggle();
+return false;">Toggle</a>
+<a href="#" onclick="$('#para').css('background-color', 'red');
+return false;">Red</a>
+<a href="#" onclick="$('#para').css('background-color', 'green');
+return false;">Green</a>
+</body>
+</html>

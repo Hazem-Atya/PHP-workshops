@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery</title>
+</head>
+<body>
+<script src="jquery-3.5.1.min.js">
+
+
+</script>
+<script>
+    $(document).ready(function(){
+        alert("Hello jQuery World!");
+        console.log('Hello jQuery..');
+    });
+    $(window).resize(function() {
+        console.log('.resize() called. width='+
+            $(window).width()+' height='+$(window).height());
+    });
+</script>
+</body>
+</html>
